@@ -1,0 +1,16 @@
+1.Messages are classified into spam and non-spam using messages and rid field and with Sequential Neural Network
+2.Non spam messages are furthur classified into updates and enquiry using data preprocessing as follows:
+                a.Removing messages in rhetorical format
+                b.Removing messages with irrelevent station information
+3.Useful tags will be extracted from updates as follows:
+                a.Station name
+                b.Train name
+                c.Categories:
+                                        I.Stuck
+                                        II.Delay
+                                        III.Departed
+                                        IV.Arrived
+                                        V.Cancelled
+                d.Is spam
+                e.Delay time if applicable
+4.Users can be notified about train status using the above extracted information
